@@ -1,0 +1,2 @@
+# pythonEX
+Solved python exercise
