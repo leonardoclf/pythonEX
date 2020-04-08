@@ -202,12 +202,27 @@
 #
 # print(save([4,4,4,3,3],11))
 
-lista = [4, 1, 2, 3]
+# lista = [4, 1, 2, 3]
+#
+# lista.sort()
+# diferenca = []
+# for i in lista:
+#     if i + 2 in lista:
+#         diferenca.append([i, i + 2])
+#
+# print(diferenca)
 
-lista.sort()
-diferenca = []
-for i in lista:
-    if i + 2 in lista:
-        diferenca.append([i, i + 2])
 
-print(diferenca)
+
+
+#Break camelCase
+# def solution(s):
+#     lista = []
+#     for c in s:
+#         lista.append(c)
+#     for i in range(len(lista)):
+#         if lista[i].isupper():
+#             lista[i] = ' ' + lista[i]
+#     return ''.join(lista)
+
+
