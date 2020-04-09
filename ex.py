@@ -213,9 +213,7 @@
 # print(diferenca)
 
 
-
-
-#Break camelCase
+# Break camelCase
 # def solution(s):
 #     lista = []
 #     for c in s:
@@ -224,5 +222,65 @@
 #         if lista[i].isupper():
 #             lista[i] = ' ' + lista[i]
 #     return ''.join(lista)
+
+
+
+
+
+
+
+
+
+# number = 9000
+# nums = str(number)
+#
+# lista = []
+# for i in range(len(nums)):
+#     lista.append(int(nums[-i - 1]) * 10 ** i)
+#
+# slista = []
+#
+# for i in range(len(lista)):
+#     slista.append('{:.1}'.format(str(lista[-i - 1])) + "*" + "1" + ("0" * ((len(lista) - 1) - i)))
+#
+# flist = []
+# for i in range(len(slista)):
+#     if "0*" not in slista[i]:
+#         flist.append(slista[i])
+# print(lista)
+# print(slista)
+# print(flist)
+# print(len(flist))
+# flist[len(flist) - 1] = '{:.1}'.format(flist[len(flist) - 1])
+# print('+'.join(flist))
+
+#codewars kata 6
+# def simplify(number):
+#     if number == 0:
+#         return ""
+#     elif 0 < number < 10:
+#         return str(number)
+#     else:
+#         nums = str(number)
+#         lista = []
+#         slista = []
+#         flist = []
+#         for i in range(len(nums)):
+#             lista.append(int(nums[-i - 1]) * 10 ** i)
+#         for i in range(len(lista)):
+#             slista.append('{:.1}'.format(str(lista[-i - 1])) + "*" + "1" + ("0" * ((len(lista) - 1) - i)))
+#         for i in range(len(slista)):
+#             if "0*" not in slista[i]:
+#                 flist.append(slista[i])
+#         if len(flist) > 1 and number % 10 != 0:
+#             flist[len(flist) - 1] = '{:.1}'.format(flist[len(flist) - 1])
+#         return '+'.join(flist)
+#
+# print(simplify(2))
+
+
+
+
+
 
 
